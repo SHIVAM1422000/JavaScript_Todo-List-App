@@ -1,0 +1,112 @@
+.completed{
+ color:grey;
+ text-decoration: line-through;   
+}
+
+
+#container{
+    border:4px solid ;
+    width: 350px;
+    background-color:rgb(36, 22, 231);
+    position:relative;
+    left: 30%;
+    top:10%;  
+   
+}
+
+
+
+#input{
+border:2px solid darkcyan;
+ color:white;
+margin-left:18%;
+margin-top: 20px;
+padding:3px;
+position: relative;
+bottom:30px;
+width:210px;
+background-color: black;
+
+}
+
+
+
+.inputEdit{
+    border:1px solid darkblue;
+    margin-left: 25%;
+  
+}
+#topPart{
+    background-color: lightgray;
+    height:19%;
+    margin:0%;
+    border: 2px solid yellow;
+}
+.heading{
+  color:
+  background: #1A2980;  /* fallback for old browsers */
+   color: -webkit-linear-gradient(to bottom, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    
+   font-weight: 1000;
+   
+   margin-left: 22%;
+   margin-right:24%;
+   margin-bottom: 23px;
+   padding: 3px;
+   padding-top:0px;
+}
+
+#bottomPart{
+  color: blue;  /* fallback for old browsers */
+  
+background-color:lightgray;
+font-weight:2000;
+margin-bottom: 0%;
+border: 2px solid greenyellow;
+line-height: 1px;
+
+}
+
+
+.bi.bi-check-circle{
+    position: relative;
+    top:5px
+    
+}
+
+
+body{
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+        
+
+}
+
+.fa.fa-trash{
+
+color:lightgray;
+
+margin-right:10px;
+padding:2px;
+ color:red;
+opacity:0;
+line-height:40px;
+width:0%
+}
+
+
+li:hover span .fa.fa-trash {
+
+   
+    width:15px;
+    transition:0.4s;
+    opacity:1;
+    
+}
+
+
